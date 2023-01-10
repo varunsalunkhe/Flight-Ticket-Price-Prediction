@@ -7,13 +7,16 @@ import joblib
 from logger.logger import 
 
 
-model=joblib.load("model.pkl")
+model= joblib.load("model.pkl")
 log.addLog("INFO","model loaded")
 
-data_columns=joblib.load("data_columns.pkl")
+first_half_columns=joblib.load("first_half_columns.pkl")
 log.addLog("INFO","columns loaded")
 
-model_cols=joblib.load("data_cols.pkl")
+sec_half_columns= joblib.load("sec_half_columns.pkl")
+log.addLog("INFO","columns loaded")
+
+all_cols= joblib.load("all_cols.pkl")
 log.addLog("INFO","columns loaded")
 
 
