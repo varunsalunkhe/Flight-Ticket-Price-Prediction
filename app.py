@@ -49,7 +49,7 @@ def index():
 
 
 
-@app.route("/dashboard" , methods=["GET","POST"])
+@app.route("/predict" , methods=["GET","POST"])
 
 
 
