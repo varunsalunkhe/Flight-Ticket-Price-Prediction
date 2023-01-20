@@ -1,1 +1,180 @@
-<h3>hello varun</h3>
+<style>
+  div {
+    margin: 2%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f5f5f5;
+    z-index: 500;
+  }
+  .grid-items {
+    display: grid;
+    background-color: #579bb1;
+    gap: 5px;
+    padding: 2%;
+    font-size: 200%;
+    color: #ffffff;
+    border-radius: 10px;
+    z-index: 500;
+  }
+  .grid-button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 150%;
+    margin-top: 7%;
+    text-align: center;
+    background-color: #f2f1ed;
+  }
+  select,
+  option,
+  input {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 60%;
+    text-align: center;
+    z-index: 500;
+  }
+  .answer {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+    font-size: 300%;
+    padding: 1%;
+    z-index: 500;
+    border-color: black;
+    border-width: 2px;
+  }
+  label {
+    text-align: center;
+    z-index: 500;
+  }
+  form,
+  body {
+    background-color: #f5f5f5;
+    z-index: 500;
+  }
+  .btn {
+    border-color: #579bb1;
+    border-width: 5px;
+    padding: 1%;
+  }
+
+  img {
+    width: 20%;
+    height: 40%;
+    transform: rotate(90deg);
+    position: absolute;
+    animation: myfirst 15s infinite;
+    animation-direction: linear;
+    z-index: 3;
+    animation-timing-function: linear;
+  }
+
+  @keyframes myfirst {
+    0% {
+      left: -1%;
+      top: 250px;
+    }
+    /* 25%  { left: 50%; top: 25%;} */
+    /* 50%  { left: 50%; top: 50%;} */
+    /* 75%  { left: 50%; top: 75%;} */
+    100% {
+      left: 99%;
+      top: 250px;
+    }
+  }
+
+  h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+  }
+</style>
+<body>
+  <img src="https://static.vecteezy.com/system/protected/files/001/208/448/vecteezy_airplane_1208448.png" />
+  <form action="{{ url_for('predict')}}" method="post">
+    <div class="grid-container">
+      <div class="grid-items">
+        <label for="Airline">Airline </label>
+        <select name="Airline" id="list">
+          <option value="Jet Airways">Jet Airways</option>
+          <option value="IndiGo">IndiGo</option>
+          <option value="Air India ">Air India</option>
+          <option value="Multiple carriers">Multiple carriers</option>
+          <option value="SpiceJet">SpiceJet</option>
+          <option value="Vistara">Vistara</option>
+          <option value="Air Asia">Air Asia</option>
+          <option value="GoAir">GoAir</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="grid-items">
+        <label for="Source">Source </label>
+        <select name="Source" id="">
+          <option value="Delhi">Delhi</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Banglore">Banglore</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Chennai">Chennai</option>
+        </select>
+      </div>
+
+      <div class="grid-items">
+        <label for="Destination">Destination </label>
+        <select name="Destination" id="">
+          <option value="Cochin">Cochin</option>
+          <option value="Banglore">Banglore</option>
+          <option value="Delhi">Delhi</option>
+          <option value="New Delhi">New Delhi</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Kolkata">Kolkata</option>
+        </select>
+      </div>
+
+      <div class="grid-items">
+        <label for="Total Stops"> Total Stops </label>
+        <select name="Total_Stops" id="">
+          <option value="1 stop">1 stop</option>
+          <option value="2 stops">2 stops</option>
+          <option value="3 stops">3 stops</option>
+          <option value="4 stops">4 stops</option>
+          <option value="non-stop">non-stop</option>
+        </select>
+      </div>
+
+      <div class="grid-items">
+        <label for="Journey date">Journey date </label>
+        <input type="date" name="journeyDate" />
+      </div>
+
+      <div class="grid-items">
+        <label for="Departure Time">Departure Time </label>
+        <input type="time" name="departureTimes" />
+      </div>
+
+      <div class="grid-items">
+        <label for="Arrival Time">Arrival Time </label>
+        <input type="time" name="arrivalTime" />
+      </div>
+
+      <div class="grid-items">
+        <label for="Duration Time">Duration Time </label>
+        <input type="time" name="durationTime" />
+      </div>
+      <button class="btn btn-primary mt-3 grid-button" type="submit">
+        PREDICT
+      </button>
+      <!-- <h3 class="mt-3 answer grid-button">{{Pred}}</h3> -->
+    </div>
+  </form>
+  <h3>{{Pred}}</h3>
+</body>
