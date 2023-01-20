@@ -7,11 +7,19 @@ import joblib
 import traceback
 from datetime import datetime
 # from logger.logger import log
+from logger.logger import Logs
+
+
+
+log = Logs("logs.log")
+log.addLog("INFO", "Execution started Successfully !")
+
+
 
 
 model = joblib.load("model.pkl")
 print("model added.")
-# log.addLog("INFO","model loaded")
+log.addLog("INFO","model loaded")
 
 first_half_columns = joblib.load("first_half_columns.pkl")
 print("first added.")
@@ -38,7 +46,7 @@ def index():
 def predict():
     if model:
         try:
-            
+            #print("model added.")
             if request.method == 'POST':
                 airline = request.form.get('Airline')
                 source = request.form.get('Source')
@@ -75,10 +83,15 @@ def predict():
             return render_template('index.html', Pred="Rs."+str(round(float(prediction),2)))
 
         except:
-          
+            #print("fu")
             return jsonify({"trace ": traceback.format_exc()})
+
+        # if output == 0:
+        #     return render_template('dashboard.html', mushroom ="The mushroom is Poisonous.",email = email)
+        # else:
+        #     return render_template('dashboard.html', mushroom ="The mushroom is Edible.",email = email)
     else:
-        
+        # return render_template("login.html")
         return ("no model is here to use")
 
 
