@@ -35,12 +35,11 @@ be" for Poisonous Oak and Ivy.
   
 ## 📝 Description
 - This implemantation is based on official **Alphapose** repository https://github.com/MVIG-SJTU/AlphaPose 
-- In this project we have used **RandomForestClassifier** for classification of mushrooms.
+- In this project we have used **RandomForestRegressor** for predicting the ticket price.
 
 ## ⏳ Dataset
 - Download the dataset for custom training
-- [kaggle link](https://www.kaggle.com/datasets/uciml/mushroom-classification)
-- [Repo link](https://github.com/varunsalunkhe/Project--Mushroom/blob/master/mushrooms.csv)
+- [Repo link](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/FlightFare_Dataset.xlsx)
 
 ## :desktop_computer:	Installation
 
