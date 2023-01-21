@@ -62,9 +62,6 @@ be" for Poisonous Oak and Ivy.
 $ pip install -r requirements.txt
 
 ```
-3. Create account on [MongoDB](https://account.mongodb.com/account/login)
-4. Enter your username and password without space in Userinfo.txt file 
-
 
 ## 👨‍💻 To run
 ```bash
