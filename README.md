@@ -20,7 +20,7 @@ be" for Poisonous Oak and Ivy.
 <br />
 
 >Prediction Page
-![Prediction Page](https://github.com/varunsalunkhe/Project--Mushroom/blob/db093845ef9fc2057a234b083fd89f9585e2f86e/Screenshots/Predicted%20page.png)
+![Prediction Page](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/Documents/webpage.jpg)
 
 - This repository represents **" Flight Ticket Price Predicton "**.
 - With the help of this project we can predict the fare price of flight ticket.
