@@ -19,22 +19,13 @@ be" for Poisonous Oak and Ivy.
 ## :technologist: :student:  User Interface
 <br />
 
->Home page
-![Home Page](https://github.com/varunsalunkhe/Project--Mushroom/blob/6fbebefa3f99c69270ee0ae33fa8dc45d2fd9a47/Screenshots/HomePage.png)
->Login Page
-![Login Page](https://github.com/varunsalunkhe/Project--Mushroom/blob/6fbebefa3f99c69270ee0ae33fa8dc45d2fd9a47/Screenshots/Login%20page.png)
->Signup Page
-![Signup Page](https://github.com/varunsalunkhe/Project--Mushroom/blob/6fbebefa3f99c69270ee0ae33fa8dc45d2fd9a47/Screenshots/Signup%20Page.png)
->Attributes input Page
-![input Page](https://github.com/varunsalunkhe/Project--Mushroom/blob/6fbebefa3f99c69270ee0ae33fa8dc45d2fd9a47/Screenshots/Prediction%20Model%20page.png)
 >Prediction Page
 ![Prediction Page](https://github.com/varunsalunkhe/Project--Mushroom/blob/db093845ef9fc2057a234b083fd89f9585e2f86e/Screenshots/Predicted%20page.png)
 
-- This repository represents **" Mushroom Classification "**.
-- With the help of this project we can detect whether mushroom with provided specifications is **Poisonous** or not.
+- This repository represents **" Flight Ticket Price Predicton "**.
+- With the help of this project we can predict the fare price of flight ticket.
   
 ## 📝 Description
-- This implemantation is based on official **Alphapose** repository https://github.com/MVIG-SJTU/AlphaPose 
 - In this project we have used **RandomForestRegressor** for predicting the ticket price.
 
 ## ⏳ Dataset
@@ -46,11 +37,9 @@ be" for Poisonous Oak and Ivy.
 ### :hammer_and_wrench: Requirements
 * Python 3.5+
 * numpy
-* panda
+* pandas
 * sklearn
 * flask
-* pymongo
-* bcrypt
 * joblib
 
 ## :gear: Setup
