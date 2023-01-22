@@ -35,7 +35,7 @@ specific departure date, algorithms need to determine whether it is suitable to 
 ![Prediction Page](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/Documents/webpage.jpg)
 
 ## App Functionality
-![](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/Documents/127_0_0_1_5000_-_Google_Chrome_2023-01-22_20-58-57_AdobeExpress_AdobeExpress.gif)
+![](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/Documents/Untitled.gif)
 
 - This repository represents **" Flight Ticket Price Predicton "**.
 - With the help of this project we can predict the fare price of flight ticket.
