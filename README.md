@@ -1,6 +1,6 @@
 # Flight-Ticket-Price-Prediction
 
-## Ineuron-Internship
+## iNeuron.ai-Internship
 
 # Objective 🎯
 
