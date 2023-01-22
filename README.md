@@ -25,7 +25,7 @@ desired destination and period.
 indicator whether the travel is during the holidays, the number of free seats in the plane
 etc. Some of the variables are observed, but some of them are hidden
 4. In other word, when given the historical price and the current price of a flight for a
-specific departure date, algorithms need to determine whether it is suitable to buy or
+specific departure date, algorithms need to determine whether it is suitable to buy.
 
 
 ## :technologist: :student:  User Interface
