@@ -31,8 +31,6 @@ specific departure date, algorithms need to determine whether it is suitable to 
 ## :technologist: :student:  User Interface
 <br />
 
->Prediction Page
-![Prediction Page](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/Documents/webpage.jpg)
 
 ## App Functionality
 ![](https://github.com/varunsalunkhe/Flight-Ticket-Price-Prediction/blob/main/Documents/Untitled.gif)
