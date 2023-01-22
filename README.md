@@ -4,7 +4,7 @@
 
 # Objective 🎯
 
-In this project, we are going to build a Python Flight Fare Prediction App, that returns the fare prediction for a given set of travel details, like: departure date, arrival date, departure city, arrival city, stoppages, and the airline carrier.
+In this project, we are going to build a Python Flight Fare Prediction web, that returns the fare prediction for a given set of travel details, like: departure date, arrival date, departure city, arrival city, stoppages, and the airline carrier.
 # Problem Statement ❓
 
 For purchasing an airplane ticket, the traditional purchase approach is to buy a ticket far
